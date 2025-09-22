@@ -77,9 +77,10 @@ export default function Index() {
         navegador en Tabs (agrupador) y cada Tabs trae su _layout
       </Link>
 
-
-      <Text>
-      </Text>
+      <Space />
+      <Link href={'/dynamicLinks'}>
+          Links dinamicos
+      </Link>
       <Text>
       </Text>
       <Text>

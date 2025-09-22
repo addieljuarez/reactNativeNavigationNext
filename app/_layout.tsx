@@ -5,5 +5,6 @@ export default function RootLayout() {
     <Stack.Screen name="index" />
     <Stack.Screen name="details" />
     <Stack.Screen name="(tabsDemo)" />
+    <Stack.Screen name="dynamicLinks" />
   </Stack>;
 }

@@ -4,7 +4,7 @@ import { View } from "react-native";
 export default function NotFoundScreen () {
   return(
     <>
-      <Stack.Screen options={{title: 'Esta página es un ejemplo de una que no existe'}} />
+      <Stack.Screen options={{title: 'no existe'}} />
       <View
         style={{
           flex: 1,
@@ -13,8 +13,8 @@ export default function NotFoundScreen () {
           alignItems: 'center'
         }}
       >
-        <Link href={'/'}>
-          Ir a inicio
+        <Link href={'/dynamicLinks'}>
+          Esta página es un ejemplo de una que no existe link de Ir a inicio
         </Link>
       </View>
     </>
