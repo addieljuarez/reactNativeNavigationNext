@@ -78,11 +78,13 @@ export default function Index() {
       </Link>
 
       <Space />
-      <Link href={'/dynamicLinks'}>
-          Links dinamicos
+      <Link href={'/detailDynamic'}>
+        Links dinamicos
       </Link>
-      <Text>
-      </Text>
+
+      <Space />
+
+
       <Text>
       </Text>
       <Text>
